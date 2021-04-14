@@ -1,0 +1,56 @@
+<body>
+  <form name="forma">
+    <mi-nav></mi-nav>
+    <header>
+      <h1>Alumno Nuevo</h1>
+      <div class="herramientas">
+        <a
+          href="alumnos.html">
+          Cancelar</a>
+        <button type="submit">
+          Guardar
+        </button>
+      </div>
+    </header>
+    <p>
+      <label>
+        Matricula
+        <input name="matricula"
+          type="text" required>
+      </label>
+    </p>
+    <p>
+      <label>
+        Nombre
+        <input name="nombre"
+          type="text" required>
+      </label>
+    </p>
+	<p>
+      <label>
+        Telefono
+        <input name="telefono"
+          type="text" required>
+      </label>
+    </p><p>
+      <label>
+        Grupo
+        <input name="grupo"
+          type="text" required>
+      </label>
+    </p>
+	<p>
+		<label for="start">Fecha
+
+		<input type="date" id="start" name="trip-start"
+			value="2021-04-01"
+			min="2021-01-01" max="2021-12-31">
+		</label>
+	</p>
+    <mi-footer></mi-footer>
+  </form>
+  <script type="module"
+    src="js/CtrlNuevoAlumno.js">
+    </script>
+</body>
+</html>
